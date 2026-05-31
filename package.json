@@ -1,31 +1,23 @@
 {
   "name": "@isolatedlabs/libsignal-node",
   "version": "2.0.2",
-  "description": "Signal protocol implementation for Node.js",
-  "main": "index.js",
+  "description": "Open Whisper Systems' libsignal for Node.js",
   "repository": "IsolatedLabs/libsignal-node",
+  "main": "index.js",
   "keywords": [
     "signal",
     "whispersystems",
-    "crypto",
-    "encryption"
+    "crypto"
   ],
   "license": "GPL-3.0",
-  "engines": {
-    "node": ">=14.0.0"
-  },
   "dependencies": {
     "curve25519-js": "^0.0.4",
-    "protobufjs": "^7.2.6"
+    "protobufjs": "6.8.8"
   },
   "files": [
     "src/*"
   ],
   "devDependencies": {
-    "eslint": "^8.56.0"
-  },
-  "scripts": {
-    "lint": "eslint src/ index.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "eslint": "6.0.1"
   }
 }
